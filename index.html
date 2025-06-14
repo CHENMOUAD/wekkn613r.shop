@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="css/r3.css"> 
+<script>
+  function redirectToWhatsApp() {
+            // This would redirect to WhatsApp - placeholder for actual WhatsApp link
+            window.open('https://wa.me/112312313', '_blank');
+        }
+
+
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>AI Stock Analysis System - Revolutionary Market Intelligence</title>
+    <style>
+      
+    </style>
+</head>
+<body class="cosmic-container-primary">
+    <div class="stellar-section-wrapper">
+        <!-- Hero Section -->
+        <section class="quantum-hero-header">
+            <h1 class="nebula-title-primary">Revolutionary AI Stock Analysis System</h1>
+            <p class="cosmic-subtitle-descriptor">Advanced Market Intelligence Powered by Artificial Intelligence</p>
+            
+            <div class="avatar-quantum-container">
+                <img src="img/56.jpg" alt="AI System" class="stellar-profile-image">
+            </div>
+            
+            <div class="metrics-constellation-grid">
+                <div class="metric-stellar-card">
+                    <div class="metric-quantum-value">99.7%</div>
+                    <div class="metric-description-label">Analysis Accuracy</div>
+                </div>
+                <div class="metric-stellar-card">
+                    <div class="metric-quantum-value">2s</div>
+                    <div class="metric-description-label">Processing Time</div>
+                </div>
+                <div class="metric-stellar-card">
+                    <div class="metric-quantum-value">36,968</div>
+                    <div class="metric-description-label">Active Users</div>
+                </div>
+                <div class="metric-stellar-card">
+                    <div class="metric-quantum-value">360°</div>
+                    <div class="metric-description-label">Multi-Dimensional Analysis</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Analysis Input Section -->
+        <section class="analysis-input-constellation">
+            <input type="text" id="stockInputField" class="input-field-cosmic" placeholder="Enter stock symbol (e.g., AAPL, TSLA, MSFT)">
+            <button class="quantum-action-button" onclick="ajd()">Analyze Stock Performance</button>
+        </section>
+
+        <!-- Rankings Section -->
+        <section class="rankings-galaxy-section">
+            <div class="ranking-nebula-card">
+                <h3 class="ranking-title-cosmic">Recent Diagnostic Rankings - Highest Scores</h3>
+                <table class="stellar-data-table">
+                    <thead>
+                        <tr>
+                            <th class="table-header-quantum">Rank</th>
+                            <th class="table-header-quantum">Stock Name</th>
+                            <th class="table-header-quantum">Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="table-data-cosmic">1</td><td class="table-data-cosmic clickable-stock" onclick="analyzeStock('Cisco Systems Inc')">CSCO</td><td class="table-data-cosmic">89.66</td></tr>
+                        <tr><td class="table-data-cosmic">2</td><td class="table-data-cosmic clickable-stock" onclick="analyzeStock('Tesla Inc')">Tesla</td><td class="table-data-cosmic">88.92</td></tr>
+                        <tr><td class="table-data-cosmic">3</td><td class="table-data-cosmic clickable-stock" onclick="analyzeStock('Micron Technology Inc')">Micron</td><td class="table-data-cosmic">87.82</td></tr>
+                        <tr><td class="table-data-cosmic">4</td><td class="table-data-cosmic clickable-stock" onclick="analyzeStock('American Electric Power')">AEP</td><td class="table-data-cosmic">86.27</td></tr>
+                        <tr><td class="table-data-cosmic">5</td><td class="table-data-cosmic clickable-stock" onclick="analyzeStock('Monster Beverage Corp')">MNST</td><td class="table-data-cosmic">85.82</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="ranking-nebula-card">
+                <h3 class="ranking-title-cosmic">Popular Focus Stocks</h3>
+                <table class="stellar-data-table">
+                    <thead>
+                        <tr>
+                            <th class="table-header-quantum">Rank</th>
+                            <th class="table-header-quantum">Stock Name</th>
+                            <th class="table-header-quantum">Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="table-data-cosmic">1</td><td class="table-data-cosmic clickable-stock" onclick="analyzeStock('Cisco Systems Inc')">AEP</td><td class="table-data-cosmic">88.22</td></tr>
+                        <tr><td class="table-data-cosmic">2</td><td class="table-data-cosmic clickable-stock" onclick="analyzeStock('Adobe Inc')">Adobe</td><td class="table-data-cosmic">87.92</td></tr>
+                        <tr><td class="table-data-cosmic">3</td><td class="table-data-cosmic clickable-stock" onclick="analyzeStock('Qualcomm Inc')">Qualcomm</td><td class="table-data-cosmic">86.37</td></tr>
+                        <tr><td class="table-data-cosmic">4</td><td class="table-data-cosmic clickable-stock" onclick="analyzeStock('Warner Bros Discovery')">WBD</td><td class="table-data-cosmic">85.82</td></tr>
+                        <tr><td class="table-data-cosmic">5</td><td class="table-data-cosmic clickable-stock" onclick="analyzeStock('Applied Materials Inc')">AMAT</td><td class="table-data-cosmic">84.68</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="ranking-nebula-card">
+                <h3 class="ranking-title-cosmic">Growth Potential Leaders</h3>
+                <table class="stellar-data-table">
+                    <thead>
+                        <tr>
+                            <th class="table-header-quantum">Rank</th>
+                            <th class="table-header-quantum">Stock Name</th>
+                            <th class="table-header-quantum">Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td class="table-data-cosmic">1</td><td class="table-data-cosmic clickable-stock" onclick="analyzeStock('Cadence Design Systems')">CDNS</td><td class="table-data-cosmic">89.34</td></tr>
+                        <tr><td class="table-data-cosmic">2</td><td class="table-data-cosmic clickable-stock" onclick="analyzeStock('Microchip Technology')">MCHP</td><td class="table-data-cosmic">88.27</td></tr>
+                        <tr><td class="table-data-cosmic">3</td><td class="table-data-cosmic clickable-stock" onclick="analyzeStock('Intuitive Surgical Inc')">ISRG</td><td class="table-data-cosmic">87.29</td></tr>
+                        <tr><td class="table-data-cosmic">4</td><td class="table-data-cosmic clickable-stock" onclick="analyzeStock('Apple Inc')">Apple</td><td class="table-data-cosmic">86.26</td></tr>
+                        <tr><td class="table-data-cosmic">5</td><td class="table-data-cosmic clickable-stock" onclick="analyzeStock('PACCAR Inc')">PACCAR</td><td class="table-data-cosmic">85.76</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Risk Disclosure Section -->
+        <section class="risk-disclosure-constellation">
+            <h3 class="warning-title-stellar">⚠️ Important Risk Disclosure</h3>
+            <p class="disclaimer-text-cosmic">This service provides general market information only and does not constitute investment advice or recommendations.</p>
+            <p class="disclaimer-text-cosmic">• Financial markets involve risks, and you may lose some or all of your invested capital. All examples shown are historical data analysis and do not guarantee future returns.</p>
+            <p class="disclaimer-text-cosmic">• Investors should make prudent decisions based on their own risk tolerance. All information provided consists of objective factual statements and does not constitute investment advice.</p>
+            <p class="disclaimer-text-cosmic">• AI analysis tools only provide probability calculations based on historical data and algorithmic models, and do not constitute investment advice in any form.</p>
+            <p class="disclaimer-text-cosmic">• Past performance does not represent future performance, and actual returns may be lower or higher than AI predictions.</p>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer-galaxy-links">
+            <a href="privacy.html" class="legal-link-quantum">Privacy Policy</a>
+            <a href="terms.html" class="legal-link-quantum">Terms of Service</a>
+        </footer>
+    </div>
+
+    <!-- Progress Modal -->
+    <div id="progressModalOverlay" class="modal-overlay-cosmic">
+        <div class="modal-content-nebula">
+            <h3 style="color: var(--accent-quantum-cyan); margin-bottom: 1rem;">AI System Processing</h3>
+            <p style="color: var(--text-cosmic-gray); margin-bottom: 1rem;">Combining: Market Analysis, Latest News Analysis, Historical Data Analysis</p>
+            <div class="progress-quantum-container">
+                <div id="progressBar" class="progress-stellar-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Result Modal -->
+    <div id="resultModalOverlay" class="modal-overlay-cosmic">
+        <div class="modal-content-nebula">
+            <h3 style="color: var(--accent-quantum-cyan); margin-bottom: 1rem;">Your Stock Analysis Report is Complete</h3>
+            <p style="color: var(--text-stellar-white); margin-bottom: 1rem;">Get your personalized report and our exclusive Top 10 Stock Picks for 2025 - Free!</p>
+            <p style="color: var(--text-cosmic-gray); margin-bottom: 1.5rem;">※ Click to redirect to official WhatsApp account</p>
+            <button class="quantum-action-button" onclick="showWhatsAppModal()">Click Here to Receive Report</button>
+        </div>
+    </div>
+
+    <!-- WhatsApp Redirect Modal -->
+    <div id="whatsappModalOverlay" class="modal-overlay-cosmic">
+        <div class="modal-content-nebula">
+            <h3 style="color: var(--accent-quantum-cyan); margin-bottom: 1rem;">Redirecting to Official WhatsApp Account</h3>
+            <p style="color: var(--text-stellar-white); margin-bottom: 1rem;">You will be redirected to our official WhatsApp account and receive a list of 10 rising stocks.</p>
+            <div style="margin: 1.5rem 0;">
+                <p style="color: var(--text-cosmic-gray); margin-bottom: 0.5rem;">✓ Secure official WhatsApp account.</p>
+                <p style="color: var(--text-cosmic-gray); margin-bottom: 0.5rem;">✓ Your personal information is protected by our privacy policy.</p>
+            </div>
+            <button class="quantum-action-button" onclick="redirectToWhatsApp()">Continue to WhatsApp</button>
+        </div>
+    </div>
+
+    <script>
+        function ajd() {
+            // Show progress modal
+            const progressModal = document.getElementById('progressModalOverlay');
+            const resultModal = document.getElementById('resultModalOverlay');
+            const progressBar = document.getElementById('progressBar');
+            
+            progressModal.style.display = 'flex';
+            
+            // Animate progress bar
+            setTimeout(() => {
+                progressBar.style.width = '100%';
+            }, 100);
+            
+            // Hide progress modal and show result modal after 2 seconds
+            setTimeout(() => {
+                progressModal.style.display = 'none';
+                resultModal.style.display = 'flex';
+            }, 2000);
+        }
+
+        function analyzeStock(stockName) {
+            // Set the stock name in the input field
+            document.getElementById('stockInputField').value = stockName;
+            // Trigger the analysis
+            ajd();
+        }
+
+        function showWhatsAppModal() {
+            document.getElementById('resultModalOverlay').style.display = 'none';
+            document.getElementById('whatsappModalOverlay').style.display = 'flex';
+        }
+
+      
+        // Close modals when clicking outside
+        document.addEventListener('click', function(event) {
+            const progressModal = document.getElementById('progressModalOverlay');
+            const resultModal = document.getElementById('resultModalOverlay');
+            const whatsappModal = document.getElementById('whatsappModalOverlay');
+            
+            if (event.target === progressModal) {
+                progressModal.style.display = 'none';
+            }
+            if (event.target === resultModal) {
+                resultModal.style.display = 'none';
+            }
+            if (event.target === whatsappModal) {
+                whatsappModal.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
